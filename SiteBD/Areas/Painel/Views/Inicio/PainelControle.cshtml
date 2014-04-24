@@ -1,0 +1,53 @@
+﻿
+@model List<SiteBD.Areas.Painel.Models.Empresa>
+
+
+<h2>Painel de Controle</h2>
+<div id="painelControle">
+    <p>@ViewBag.nome</p>
+</div>
+
+
+<p><a href="~/Painel/Inicio/Cadastrar">Cadastrar Empresa</a></p>
+<p><a href="~/Painel/Inicio/ListaCategoria">Categorias</a></p>
+<div class="col-md-12">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Descricao</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>IdArea</th>
+                <th>Area</th>
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.idEmpresa</td>
+                <td>@item.Descricao</td>
+                <td>@item.Telefone</td>
+                <td>@item.Endereco</td>
+                <td>@item.idArea</td>
+                <td>@item.Area</td>
+           <td>
+               <a class="btn btn-default btn-sm" href="@Url.Action("Editar",new {id=item.idEmpresa})" title="Editar">
+                   <i class="glyphicon glyphicon-pencil"> </i>
+               </a>
+
+                    <a  class="btn btn-default btn-sm"href="@Url.Action("Detalhe",new {id=item.idEmpresa})" title="Informações">
+                        <i class="glyphicon glyphicon-align-justify"> </i>
+                   </a>
+
+                    <a class="btn btn-default btn-sm" href="@Url.Action("Excluir",new {id=item.idEmpresa})" title="Deletar">
+                        <i class="glyphicon glyphicon-remove text-danger"> </i>
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

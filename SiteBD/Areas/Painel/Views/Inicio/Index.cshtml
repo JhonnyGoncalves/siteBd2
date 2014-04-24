@@ -1,0 +1,14 @@
+﻿@model SiteBD.Areas.Painel.Models.Pessoa
+@Html.ValidationSummary()
+<form action="" method="post" class="login">
+
+@Html.LabelFor(model =>model.Nome)
+@Html.EditorFor(model => model.Nome)
+@Html.ValidationMessageFor(model => model.Nome)
+    <br />
+    <br />
+@Html.LabelFor(model => model.Senha)
+@Html.PasswordFor(model => model.Senha)
+@Html.ValidationMessageFor(model => model.Senha)
+    <button type="submit">Entrar</button>
+</form>

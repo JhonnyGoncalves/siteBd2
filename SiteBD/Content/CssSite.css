@@ -1,0 +1,46 @@
+﻿body 
+{
+    background-color:#f2f2f8;
+    font-family:'Segoe UI';
+}
+.Empresas{
+    padding-left: 20px; border: blue solid 1px; float: left;margin:10px;margin-left:30px;
+}
+.clear
+{
+    clear:both;
+}
+#detalhes{
+   margin:100px 500px;
+   width:390px;
+}
+#detalhes p
+{
+   text-align:left;
+   margin:10px;
+   margin-top:50px;
+}
+#detalhes img
+{
+    float:left;
+    margin:10px;
+}
+
+#rodape
+{
+  background-color:blue;padding:40px;text-align:center;color:#e3e5f2;margin-top:20px;
+}
+.login{
+    background-color:#8f8383;
+    width:300px;
+    padding:20px;
+    border:1px solid #000;
+    border-radius:20px;
+    margin: 200px 500px;
+}
+button{
+    padding:2px;
+    border-radius:3px;
+    border:1px solid #fff;
+    background-color:#bcbbd9;
+}

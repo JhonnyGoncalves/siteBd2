@@ -1,0 +1,39 @@
+﻿@model SiteBD.Areas.Painel.Models.Empresa
+@using SiteBD.Areas.Painel.Models;
+<div class="col-md-6">
+    <form action="" method="post">
+        <h2>Editar</h2>
+        @Html.ValidationSummary()
+        <fieldset>
+            <input type="hidden" name="Idempresa" value="@Model.idEmpresa" />
+            <label for="Descricao">Descricao</label>
+            <input class="form-control" type="text" name="Descricao" value="@Model.Descricao" />
+            <br />
+            <label for="Telefone">Telefone</label>
+            <input class="form-control" type="text" name="Telefone" value="@Model.Telefone" />
+            <br />
+            <label for="Endereco">Endereco</label>
+            <input class="form-control" type="text" name="Endereco" value="@Model.Endereco" />
+            <br />
+
+            <select class="form-control" id="idArea" name="idArea" >
+                @foreach (var item in (List<Area>)ViewBag.ListaDeAreas)
+                {
+                    if (item.Id == Model.idArea) 
+                    {
+                        <option value="@item.Id" selected>@item.Nome</option>
+                    }
+                    else 
+                    { 
+                    <option value="@item.Id">@item.Nome</option>
+                    }
+                }
+            </select>
+
+
+            <button type="submit">Editar</button>
+            <a href="~/Painel/Inicio/PainelControle">Cancelar</a>
+        </fieldset>
+    </form>
+
+</div>

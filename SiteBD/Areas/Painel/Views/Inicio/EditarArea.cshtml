@@ -1,0 +1,19 @@
+﻿<h2>EditarArea</h2>
+@model SiteBD.Areas.Painel.Models.Area
+<div class="col-md-6">
+    <form action="" method="post">
+        <h2>Editar</h2>
+        @Html.ValidationSummary()
+        <fieldset>
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <label for="Categoria">Categoria</label>
+            <input class="form-control" type="text" name="Nome" value="@Model.Nome" />
+            <br />
+            <button type="submit">Editar</button>
+            <a href="~/Painel/Inicio/ListaCategoria">Cancelar</a>
+        </fieldset>
+    </form>
+
+</div>
+
+

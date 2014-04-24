@@ -1,0 +1,12 @@
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\SiteBD.dll.config
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\SiteBD.dll
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\SiteBD.pdb
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\System.Web.Razor.xml
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\System.Web.Webpages.xml
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\System.Web.Webpages.Deployment.xml
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\System.Web.Webpages.Razor.xml
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\System.Web.Helpers.xml
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\bin\System.Web.Mvc.xml
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\obj\Debug\SiteBD.csprojResolveAssemblyReference.cache
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\obj\Debug\SiteBD.dll
+c:\users\marcos\documents\visual studio 2013\Projects\SiteBD\SiteBD\obj\Debug\SiteBD.pdb

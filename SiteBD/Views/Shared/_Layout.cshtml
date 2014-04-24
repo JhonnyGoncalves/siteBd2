@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/Content/js/bootstrap.js"></script>
+    <link href="~/Content/CssSite.css" rel="stylesheet" />
+    <title>Site com BD</title>
+</head>
+<body>
+    <div>
+      <h1>
+          <img src="~/Content/logo.fw.png" />
+      </h1>
+    </div>
+    <header>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Pagina Inicial</a></li>
+            <li><a href="~/Painel/Inicio/Index" style="margin-left:1000px">Painel</a></li>
+        </ul>
+        <div class="clear"></div>
+    </header>
+        @RenderBody()
+    <footer id="rodape">Site empresa.com 2014</footer>
+</body>
+</html>
